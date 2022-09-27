@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rest Countries</title>
+
+    <style>
+      .countries {
+        display: grid;
+
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+        gap: 0.8rem;
+      }
+
+      .country {
+        background-color: black;
+        border: 1px solid green;
+        padding: 0.8rem;
+        color: white;
+      }
+
+      @media (min-width: 776px) {
+        .countries {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Rest countries I am Coming to youuuuuuu!!!</h2>
+
+    <section>
+      <div id="countries" class="countries"></div>
+    </section>
+
+    <script src="./countries.js"></script>
+  </body>
+</html>
