@@ -1,0 +1,15 @@
+.header a {
+  padding: 2px 5px;
+  text-decoration: none;
+  margin-right: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: rgb(27, 180, 96);
+}
+.active {
+  background-color: blueviolet;
+  border-radius: 15px;
+}
